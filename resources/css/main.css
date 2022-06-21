@@ -598,6 +598,15 @@ button:hover::after {
 	padding: 6rem;
 }
 
+#contact-us .form-container {
+	width: 50%;
+	padding: 6rem;
+}
+
+#contact-us .form-container #honey {
+	display: none;
+}
+
 .form-elements:not(:last-of-type) {
 	margin-bottom: 2rem;
 }
