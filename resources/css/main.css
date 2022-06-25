@@ -457,7 +457,7 @@ button:hover::after {
 #products-section {
 	padding: 17rem 0 10rem 0;
 	margin-top: -20vh;
-	min-height: 50rem;
+	min-height: 150rem;
 }
 
 #products-section .product {
