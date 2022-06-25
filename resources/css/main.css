@@ -567,6 +567,10 @@ button:hover::after {
 	margin-top: 2rem;
 }
 
+.about-us-content h1 {
+	display: none;
+}
+
 .about-us-content h2 {
 	/*font-size: 2.5rem;*/
 }
@@ -598,9 +602,8 @@ button:hover::after {
 	padding: 6rem;
 }
 
-#contact-us .form-container {
-	width: 50%;
-	padding: 6rem;
+#contact-us .form-container h1 {
+	display: none;
 }
 
 #contact-us .form-container #honey {
