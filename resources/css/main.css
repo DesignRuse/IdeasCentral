@@ -475,6 +475,7 @@ button:hover::after {
 }
 
 #products-section .product .product-contents {
+	height: 60rem;
 	padding: 1.5rem;
 }
 
