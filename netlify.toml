@@ -8,3 +8,161 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=2592000"
     Feature-Policy = "vibrate 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'"
+
+  [[redirects]]
+    from = "index.html"
+    to = "https://ideascentral.netlify.app/index.html"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html"
+    to = "https://ideascentral.netlify.app/reviews.html"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#the-psychology-of-money"
+    to = "https://ideascentral.netlify.app/review.html#the-psychology-of-money"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#rest"
+    to = "https://ideascentral.netlify.app/review.html#rest"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#why-has-nobody-told-me-this-before"
+    to = "https://ideascentral.netlify.app/review.html#why-has-nobody-told-me-this-before"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#factfulness"
+    to = " https://ideascentral.netlify.app/review.html#factfulness"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#cant-hurt-me"
+    to = "https://ideascentral.netlify.app/review.html#cant-hurt-me"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#seeking-wisdom"
+    to = "https://ideascentral.netlify.app/review.html#seeking-wisdom"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#eat-that-frog"
+    to = "https://ideascentral.netlify.app/review.html#eat-that-frog"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#the-courage-to-be-disliked"
+    to = "https://ideascentral.netlify.app/review.html#the-courage-to-be-disliked"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#think-again"
+    to = " https://ideascentral.netlify.app/review.html#think-again"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#108-divine-seeds"
+    to = "https://ideascentral.netlify.app/review.html#108-divine-seeds"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#rework"
+    to = "https://ideascentral.netlify.app/review.html#rework"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#the-laws-of-human-nature"
+    to = "https://ideascentral.netlify.app/review.html#the-laws-of-human-nature"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#big-magic-creative-living-beyond-fear"
+    to = "https://ideascentral.netlify.app/review.html#big-magic-creative-living-beyond-fear"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#the-biology-of-belief"
+    to = " https://ideascentral.netlify.app/review.html#the-biology-of-belief"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "review.html#four-thousand-weeks"
+    to = "https://ideascentral.netlify.app/review.html#four-thousand-weeks"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "about.html"
+    to = "https://ideascentral.netlify.app/about.html"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "contact.html"
+    to = "https://ideascentral.netlify.app/contact.html"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+
+
+
+
