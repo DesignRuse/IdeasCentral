@@ -161,6 +161,22 @@
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
+  [[redirects]]
+    from = "https://www.ideascentral.netlify.app"
+    to = "https://ideascentral.netlify.app"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "http://www.ideascentral.netlify.app"
+    to = "http://ideascentral.netlify.app"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
 
 
 
