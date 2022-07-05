@@ -1,37 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://ideascentral.netlify.app/</loc>
-  <lastmod>2022-07-05T18:54:52+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://ideascentral.netlify.app/index.html</loc>
+<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://ideascentral.netlify.app/index.html</loc>
-  <lastmod>2022-07-05T18:54:52+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://ideascentral.netlify.app/reviews.html</loc>
+<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://ideascentral.netlify.app/reviews.html</loc>
-  <lastmod>2022-07-05T18:54:52+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://ideascentral.netlify.app/about.html</loc>
+<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://ideascentral.netlify.app/about.html</loc>
-  <lastmod>2022-07-05T18:54:52+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://ideascentral.netlify.app/contact.html</loc>
+<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://ideascentral.netlify.app/contact.html</loc>
-  <lastmod>2022-07-05T18:54:52+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://ideascentral.netlify.app/reviews.html#the-psychology-of-money</loc>
+<priority>1.0</priority>
 </url>
-
-
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#rest</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#why-has-nobody-told-me-this-before</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#factfulness</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#cant-hurt-me</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#seeking-wisdom</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#eat-that-frog</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#the-courage-to-be-disliked</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#think-again</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#108-divine-seeds</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#rework</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#the-laws-of-human-nature</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#big-magic-creative-living-beyond-fear</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#the-biology-of-belief</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://ideascentral.netlify.app/reviews.html#four-thousand-weeks</loc>
+<priority>1.0</priority>
+</url>
 </urlset>
