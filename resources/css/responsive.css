@@ -128,10 +128,11 @@
 	.logo-and-menu .menu-icon {
 		display: flex;
 		align-items: center;
-		font-size: 2.75rem;
+		width: 2.75rem;
+		height: 2.75rem;
 		cursor: pointer;
 	}
-	.menu-icon i {
+	.menu-icon icomoon {
 		transition: all 1s ease;
 	}
 	#header .what-we-offer {

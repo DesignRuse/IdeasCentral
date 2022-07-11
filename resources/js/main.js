@@ -10,12 +10,12 @@ window.addEventListener('DOMContentLoaded', function () {
 			if(navigation.getBoundingClientRect().height == '0') {
 				navigation.style.height = 'auto';
 				navigation.style.padding = '1.5rem 0';		/* padding: 1.5rem 0; */
-				menuIcon.firstElementChild.className = 'fa fa-times-circle';
+				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-times-circle');
 			} 
 			else {
 				navigation.style.height = '0';
 				navigation.style.padding = '0';	
-				menuIcon.firstElementChild.className = 'fa fa-bars';
+				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-bars');
 			}
 		});
 	}
@@ -26,12 +26,12 @@ window.addEventListener('DOMContentLoaded', function () {
 			if(menu.getBoundingClientRect().height == '0') {
 				menu.style.height = 'auto';
 				menu.style.padding = '1.5rem 0';		/* padding: 1.5rem 0; */
-				menuIcon.firstElementChild.className = 'fa fa-times-circle';
+				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-times-circle');
 			} 
 			else {
 				menu.style.height = '0';
 				menu.style.padding = '0';	
-				menuIcon.firstElementChild.className = 'fa fa-bars';
+				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-bars');
 			}
 		});
 	}

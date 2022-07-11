@@ -494,14 +494,15 @@ button:hover::after {
 	margin-top: .5rem;
 }
 
-#products-section .rating .fa {
-	font-size: 2.6rem;
-	color: rgba(255, 119, 48, 0.8);
+#products-section .rating .icomoon {
+	width: 2.6rem;
+	height: 2.6rem;
+	fill: rgba(255, 119, 48, 0.8);
 	transition: .4s;
 	margin: .3rem;
 }
 
-#products-section .rating .fa:hover {
+#products-section .rating .icomoon:hover {
 	transform: scale(1.3);
 	transition: .6s;
 }
@@ -548,8 +549,8 @@ button:hover::after {
 	margin-left: .5rem;
 }
 
-.rating .fa {
-	color: var(--orange);
+.rating .icomoon {
+	fill: var(--orange);
 }
 
 #about-us {
