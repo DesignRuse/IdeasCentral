@@ -571,10 +571,6 @@ button:hover::after {
 	display: none;
 }
 
-.about-us-content h2 {
-	/*font-size: 2.5rem;*/
-}
-
 .about-us-content h3 {
 	font-size: 1.6rem;
 	margin: 2rem 0 1rem 0;
