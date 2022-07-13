@@ -1,20 +1,18 @@
-﻿
-window.addEventListener('DOMContentLoaded', function () {
+﻿window.addEventListener('DOMContentLoaded', function () {
 
 	var menuIcon = document.getElementsByClassName('menu-icon')[0];
 	var navigation = document.getElementsByClassName('navigation')[0];
 	var menu = document.getElementsByClassName('menu')[0];
 	if (typeof navigation != "undefined") {
 		navigation.style.height = '0';
-		menuIcon.addEventListener('click', function() {
-			if(navigation.getBoundingClientRect().height == '0') {
+		menuIcon.addEventListener('click', function () {
+			if (navigation.getBoundingClientRect().height == '0') {
 				navigation.style.height = 'auto';
-				navigation.style.padding = '1.5rem 0';		/* padding: 1.5rem 0; */
+				navigation.style.padding = '1.5rem 0'; /* padding: 1.5rem 0; */
 				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-times-circle');
-			} 
-			else {
+			} else {
 				navigation.style.height = '0';
-				navigation.style.padding = '0';	
+				navigation.style.padding = '0';
 				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-bars');
 			}
 		});
@@ -22,21 +20,20 @@ window.addEventListener('DOMContentLoaded', function () {
 
 	if (typeof menu != "undefined") {
 		menu.style.height = '0';
-		menuIcon.addEventListener('click', function() {
-			if(menu.getBoundingClientRect().height == '0') {
+		menuIcon.addEventListener('click', function () {
+			if (menu.getBoundingClientRect().height == '0') {
 				menu.style.height = 'auto';
-				menu.style.padding = '1.5rem 0';		/* padding: 1.5rem 0; */
+				menu.style.padding = '1.5rem 0'; /* padding: 1.5rem 0; */
 				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-times-circle');
-			} 
-			else {
+			} else {
 				menu.style.height = '0';
-				menu.style.padding = '0';	
+				menu.style.padding = '0';
 				menuIcon.firstElementChild.firstElementChild.setAttribute('xlink:href', 'resources/images/icon-sprite.svg#icon-bars');
 			}
 		});
 	}
 
-	
+
 	function success(form) {
 		form.reset();
 		var parentOfFormContainer = form.parentElement.parentElement;
@@ -101,7 +98,7 @@ window.addEventListener('DOMContentLoaded', function () {
 			});
 		}*/
 	}
-	
+
 });
 
 // helper function for sending an AJAX request
@@ -119,4 +116,3 @@ function ajax(method, url, data, form, success, error) {
 	};
 	xhr.send(data);
 }
-
