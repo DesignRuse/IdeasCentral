@@ -1,1 +1,249 @@
-@media only screen and (min-width:112.5em){html{font-size:75%}}@media only screen and (max-width:75em){:root{--horizontal-gutter:3rem !important}html{font-size:56.25% !important}.row{max-width:90% !important}.tagline h1{font-size:4.5rem !important;line-height:1.2;font-weight:700;margin-bottom:2.5rem}.book-review-image{margin-bottom:4.5rem}.book-review-image img{width:26.38rem;height:34.56rem}.book-review-content{margin-bottom:4.5rem}#contact-us-section #contact-us{background-image:linear-gradient(105deg,rgba(255,255,255,0.9) 0,rgba(255,255,255,0.9) 65%,transparent 65%),url(../images/andy-holmes-unsplash.jpg);background-size:cover;border-radius:3px;box-shadow:0 1.5rem 4rem rgba(0,0,0,0.15)}#contact-us .form-container{width:65%;padding:6rem}.form-elements input,textarea{width:100%}}@media only screen and (max-width:56.25em){:root{--horizontal-gutter:6rem !important}.row{width:90% !important;max-width:65rem !important;margin-bottom:6rem}.row:not(:first-of-type){margin-bottom:0 !important}.row [class^="colm-"]{width:100%;margin:0 auto 6rem auto !important}html{font-size:50%}body{padding:0}.margin-bottom-big{margin-bottom:5rem}.row-redefined{margin-bottom:1rem}.navi{flex-direction:column;justify-content:space-between}.logo-and-nav .navigation,.logo-and-menu .menu{display:block;width:calc(100% - 2rem);height:0;position:absolute;top:7.5rem;left:50%;transform:translateX(-50%);background-color:#333;border-radius:3px;z-index:20;overflow:hidden;transition:all .2s ease}.navigation li,.menu li{display:block}.navigation li a:link,.navigation li a:visited,.menu li a:link,.menu li a:link{display:block;color:var(--snow);text-align:right;padding:0 3.75rem 0 0 !important}.navigation li a:hover,.navigation li a:active,.menu li a:hover,.menu li a:active{color:var(--orange)}.logo-and-nav .menu-icon,.logo-and-menu .menu-icon{display:flex;align-items:center;width:2.75rem;height:2.75rem;cursor:pointer}.menu-icon icomoon{transition:all 1s ease}#header .what-we-offer{flex-direction:column-reverse;padding:6rem 0 8rem 0;overflow:hidden}.what-we-offer .tagline{flex:1 !important;text-align:center}.what-we-offer .flagship{overflow:hidden;padding-top:2.5rem}.flagship img{display:block;position:static;width:100%;right:0;bottom:0;margin:0 auto}.book-review-image{margin-bottom:0}.book-review-content{margin-bottom:5rem}.book-review-content .p1{text-align:justify}#contact-us-section{padding:10rem 0 5rem 0}#contact-us-section #contact-us{background-image:linear-gradient(105deg,rgba(255,255,255,0.9) 0,rgba(255,255,255,0.9) 100%),url(../images/andy-holmes-unsplash.jpg);background-size:cover;border-radius:3px;box-shadow:0 1.5rem 4rem rgba(0,0,0,0.15)}#contact-us-section .form-container{width:100%;padding:6rem}#footer{padding:5rem 0 .5rem 0}.memo::after{left:calc(18% - 2%)}#contact-us-modal #popup{width:90%;max-width:65rem !important;background-image:-o-linear-gradient(165deg,rgba(255,255,255,0.9) 0,rgba(255,255,255,0.9) 100%),url(../images/antonika-chanel-RJCslxmvBcs-unsplash.jpg);background-image:linear-gradient(-75deg,rgba(255,255,255,0.9) 0,rgba(255,255,255,0.9) 100%),url(../images/antonika-chanel-RJCslxmvBcs-unsplash.jpg);background-size:cover}#popup .form-container{width:100%;padding:3rem;margin:0 auto}#footer{padding:6rem 0 0 0}.book-review-image img{width:100%;height:auto}}@media only screen and (max-width:37.5em){body{overflow-x:hidden}.row{max-width:50rem !important}.section-title{font-size:2.85rem}.tagline h1{font-size:4rem !important;line-height:1.2;font-weight:700;margin-bottom:2.5rem}.flagship img{display:block;width:100%;height:auto;animation:moveUpAndDown 1.1s;animation-direction:alternate;animation-timing-function:cubic-bezier(.5,0.05,1,.5);animation-iteration-count:infinite;position:static}.memo::after{left:18%}#footer{padding:5rem 0 0 0}}
+/*--- Big desktops ---*/
+@media only screen and (min-width:112.5em) {	/*1800px*/
+	html {
+		font-size: 75%;
+	}
+}
+
+
+/*--- Tablets in landscape mode ---*/
+@media only screen and (max-width:75em) {	/*1200px*/
+	:root {
+		--horizontal-gutter: 3rem !important;	/*-----------  HORIZONTAL GUTTER  -----------*/
+	}
+	html {
+		font-size: 56.25% !important;
+	}
+	.row {
+		max-width: 90% !important;	/*-----------  MAXIMUM WIDTH OF GRID SYSTEM  -----------*/
+	}
+	.tagline h1 {
+		font-size: 4.5rem !important;
+		line-height: 1.2;
+		font-weight: 700;
+		margin-bottom: 2.5rem;
+	}
+	.book-review-image {
+		margin-bottom: 4.5rem;
+	}
+	.book-review-image img {
+		width: 26.38rem;
+		height: 34.56rem;
+	}
+	.book-review-content {
+		margin-bottom: 4.5rem;
+	}
+	#contact-us-section #contact-us {
+		background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../images/andy-holmes-unsplash.jpg);
+		background-size: cover;
+		border-radius: 3px;
+		box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+	}
+	#contact-us .form-container {
+		width: 65%;
+		padding: 6rem;
+	}
+	.form-elements input,
+	textarea {
+		width: 100%;
+	}
+}
+
+
+/*--- Tablets in portrait mode ---*/
+@media only screen and (max-width:56.25em) {	/*900px*/
+	:root {
+		--horizontal-gutter: 6rem !important;	/*-----------  HORIZONTAL GUTTER  -----------*/
+	}
+	.row {
+		width: 90% !important;
+		max-width: 65rem !important;
+		margin-bottom: 6rem;
+	}
+	.row:not(:first-of-type) {
+		margin-bottom: 0 !important;
+	}
+	.row [class^="colm-"] {
+		width: 100%;
+		margin: 0 auto 6rem auto !important;
+	}
+	html {
+		font-size: 50%;
+	}
+	body {
+		padding: 0;
+	}
+	/*--------------------------------------------------------*/
+	/*-------------------- OTHER UTILITY CLASSES -------------*/
+	/*--------------------------------------------------------*/
+	.margin-bottom-big {
+		margin-bottom: 5rem;
+	}
+	.row-redefined {
+		margin-bottom: 1rem;	/*-----------  RESETS VERTICAL GUTTER DEFINED EARLIER  -----------*/
+	}
+	/*--------------------------------------------------------*/
+	/*-------------------- OTHER UTILITY CLASSES -------------*/
+	/*--------------------------------------------------------*/
+	.navi {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.logo-and-nav .navigation,
+	.logo-and-menu .menu {
+		display: block;
+		width: calc(100% - 2rem);
+		height: 0;
+		position: absolute;
+		top: 7.5rem;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #333;
+		/* padding: 1.5rem 0; */
+		border-radius: 3px;
+		z-index: 20;
+		overflow: hidden;
+		transition: all .2s ease;
+	}
+	.navigation li,
+	.menu li {
+		display: block;
+	}
+	.navigation li a:link,
+	.navigation li a:visited,
+	.menu li a:link,
+	.menu li a:link {
+		display: block;
+		color: var(--snow);
+		text-align: right;
+		padding: 0 3.75rem 0 0 !important;
+	}
+	.navigation li a:hover,
+	.navigation li a:active,
+	.menu li a:hover,
+	.menu li a:active {
+		color: var(--orange);
+	}
+	.logo-and-nav .menu-icon,
+	.logo-and-menu .menu-icon {
+		display: flex;
+		align-items: center;
+		width: 2.75rem;
+		height: 2.75rem;
+		cursor: pointer;
+	}
+	.menu-icon icomoon {
+		transition: all 1s ease;
+	}
+	#header .what-we-offer {
+		flex-direction: column-reverse;
+		padding: 6rem 0 8rem 0;
+		overflow: hidden;
+	}
+	.what-we-offer .tagline {
+		flex: 1 !important;
+		text-align: center;
+	}
+	.what-we-offer .flagship {
+		overflow: hidden;
+		padding-top: 2.5rem;
+	}
+	.flagship img {
+		display: block;
+		position: static;
+		width: 100%;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto;
+	}
+	.book-review-image {
+		margin-bottom: 0;
+	}
+	.book-review-content {
+		margin-bottom: 5rem;
+	}
+	.book-review-content .p1 {
+		text-align: justify;
+	}
+	#contact-us-section {
+		padding: 10rem 0 5rem 0;
+	}
+	#contact-us-section #contact-us {
+		background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../images/andy-holmes-unsplash.jpg);
+		background-size: cover;
+		border-radius: 3px;
+		box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+	}
+	#contact-us-section .form-container {
+		width: 100%;
+		padding: 6rem;
+	}
+	#footer {
+		padding: 5rem 0 .5rem 0;
+	}
+    .memo::after {
+      left: calc(18% - 2%);
+    }
+    #contact-us-modal #popup {
+		width: 90%;
+		max-width: 65rem !important;
+        background-image: -o-linear-gradient(165deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../images/antonika-chanel-RJCslxmvBcs-unsplash.jpg);
+        background-image: linear-gradient(-75deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../images/antonika-chanel-RJCslxmvBcs-unsplash.jpg);
+        background-size: cover;
+    }
+	#popup .form-container {
+		width: 100%;
+		padding: 3rem;
+        margin: 0 auto;
+	}
+	#footer {
+		padding: 6rem 0 0 0;
+	}
+	.book-review-image img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+/*--- Phones ---*/
+@media only screen and (max-width:37.5em) {     /*600px*/
+	body {
+		overflow-x: hidden;
+	}
+	.row {
+		max-width: 50rem !important;
+	}
+	/*--------------------------------------------------------*/
+	/*-------------------- OTHER UTILITY CLASSES -------------*/
+	/*--------------------------------------------------------*/
+	.section-title {
+		font-size: 2.85rem;
+	}
+	/*--------------------------------------------------------*/
+	/*-------------------- OTHER UTILITY CLASSES -------------*/
+	/*--------------------------------------------------------*/
+	.tagline h1 {
+		font-size: 4rem !important;
+		line-height: 1.2;
+		font-weight: 700;
+		margin-bottom: 2.5rem;
+	}
+	.flagship img {
+		display: block;
+		width: 100%;
+		height: auto;
+		animation: moveUpAndDown 1.1s;
+		animation-direction: alternate;
+		animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+		animation-iteration-count: infinite;
+		position: static;
+		/*margin-right: -6.5%;*/
+	}
+	.memo::after {
+		left: 18%;
+	  }
+	#footer {
+		padding: 5rem 0 0 0;
+	}
+}
