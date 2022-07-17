@@ -586,7 +586,7 @@ button:hover::after {
 }
 
 #contact-us-section #contact-us {
-	background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/woman-reading-a-book-in-a-cafe.jpg);
+	background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/woman-reading-a-book-in-a-cafe.webp);
 	background-size: cover;
 	border-radius: 3px;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
