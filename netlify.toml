@@ -18,128 +18,128 @@
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html"
-    to = "https://ideascentral.netlify.app/reviews.html"
+    from = "self-help-books-reviews.html"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#the-psychology-of-money"
-    to = "https://ideascentral.netlify.app/review.html#the-psychology-of-money"
+    from = "self-help-books-reviews.html#the-psychology-of-money"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#the-psychology-of-money"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#rest"
-    to = "https://ideascentral.netlify.app/review.html#rest"
+    from = "self-help-books-reviews.html#rest"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#rest"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#why-has-nobody-told-me-this-before"
-    to = "https://ideascentral.netlify.app/review.html#why-has-nobody-told-me-this-before"
+    from = "self-help-books-reviews.html#why-has-nobody-told-me-this-before"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#why-has-nobody-told-me-this-before"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#factfulness"
-    to = " https://ideascentral.netlify.app/review.html#factfulness"
+    from = "self-help-books-reviews.html#factfulness"
+    to = " https://ideascentral.netlify.app/self-help-books-reviews.html#factfulness"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#cant-hurt-me"
-    to = "https://ideascentral.netlify.app/review.html#cant-hurt-me"
+    from = "self-help-books-reviews.html#cant-hurt-me"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#cant-hurt-me"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#seeking-wisdom"
-    to = "https://ideascentral.netlify.app/review.html#seeking-wisdom"
+    from = "self-help-books-reviews.html#seeking-wisdom"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#seeking-wisdom"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#eat-that-frog"
-    to = "https://ideascentral.netlify.app/review.html#eat-that-frog"
+    from = "self-help-books-reviews.html#eat-that-frog"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#eat-that-frog"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#the-courage-to-be-disliked"
-    to = "https://ideascentral.netlify.app/review.html#the-courage-to-be-disliked"
+    from = "self-help-books-reviews.html#the-courage-to-be-disliked"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#the-courage-to-be-disliked"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#think-again"
-    to = " https://ideascentral.netlify.app/review.html#think-again"
+    from = "self-help-books-reviews.html#think-again"
+    to = " https://ideascentral.netlify.app/self-help-books-reviews.html#think-again"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#108-divine-seeds"
-    to = "https://ideascentral.netlify.app/review.html#108-divine-seeds"
+    from = "self-help-books-reviews.html#108-divine-seeds"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#108-divine-seeds"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#rework"
-    to = "https://ideascentral.netlify.app/review.html#rework"
+    from = "self-help-books-reviews.html#rework"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#rework"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#the-laws-of-human-nature"
-    to = "https://ideascentral.netlify.app/review.html#the-laws-of-human-nature"
+    from = "self-help-books-reviews.html#the-laws-of-human-nature"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#the-laws-of-human-nature"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#big-magic-creative-living-beyond-fear"
-    to = "https://ideascentral.netlify.app/review.html#big-magic-creative-living-beyond-fear"
+    from = "self-help-books-reviews.html#big-magic-creative-living-beyond-fear"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#big-magic-creative-living-beyond-fear"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#the-biology-of-belief"
-    to = " https://ideascentral.netlify.app/review.html#the-biology-of-belief"
+    from = "self-help-books-reviews.html#the-biology-of-belief"
+    to = " https://ideascentral.netlify.app/self-help-books-reviews.html#the-biology-of-belief"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "review.html#four-thousand-weeks"
-    to = "https://ideascentral.netlify.app/review.html#four-thousand-weeks"
+    from = "self-help-books-reviews.html#four-thousand-weeks"
+    to = "https://ideascentral.netlify.app/self-help-books-reviews.html#four-thousand-weeks"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
