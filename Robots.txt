@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Disallow:
 
-Sitemap: https://ideascentral.netlify.app/sitemap.xml
+Sitemap: https://ideascentral.co/sitemap.xml
