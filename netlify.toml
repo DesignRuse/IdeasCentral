@@ -9,9 +9,17 @@
     Strict-Transport-Security = "max-age=2592000"
     Feature-Policy = "vibrate 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'"
 
+   [[redirects]]
+    from = "/"
+    to = "https://ideascentral.co/"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]} 
+  
   [[redirects]]
     from = "index.html"
-    to = "https://ideascentral.co/index.html"
+    to = "https://ideascentral.co/"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
@@ -161,21 +169,6 @@
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
-  [[redirects]]
-    from = "https://ideascentral.co"
-    to = "https://ideascentral.co/index.html"
-    status = 301
-    force = false
-    query = {path = ":path"} #  apply this rule for /old-path?path=example
-    conditions = {Language = ["en","es"], Country = ["US"]}
-
-  [[redirects]]
-    from = "http://ideascentral.co"
-    to = "https://ideascentral.co/index.html"
-    status = 301
-    force = false
-    query = {path = ":path"} #  apply this rule for /old-path?path=example
-    conditions = {Language = ["en","es"], Country = ["US"]}
 
 
 
