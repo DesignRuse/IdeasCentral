@@ -34,48 +34,72 @@
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "personal-development-books-reviews.html#the-psychology-of-money"
-    to = "https://ideascentral.co/personal-development-books-reviews.html#the-psychology-of-money"
+    from = "personal-development-books-reviews.html#The-Psychology-of-Money-Timeless-lessons-on-wealth-greed-and-happiness"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#The-Psychology-of-Money-Timeless-lessons-on-wealth-greed-and-happiness"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "personal-development-books-reviews.html#rest"
-    to = "https://ideascentral.co/personal-development-books-reviews.html#rest"
+    from = "personal-development-books-reviews.html#Rest-Why-You-Get-More-Done-When-You-Work-Less"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#Rest-Why-You-Get-More-Done-When-You-Work-Less"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "personal-development-books-reviews.html#why-has-nobody-told-me-this-before"
-    to = "https://ideascentral.co/personal-development-books-reviews.html#why-has-nobody-told-me-this-before"
+    from = "personal-development-books-reviews.html#Why-Has-Nobody-Told-Me-This-Before"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#Why-Has-Nobody-Told-Me-This-Before"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "personal-development-books-reviews.html#factfulness"
-    to = " https://ideascentral.co/personal-development-books-reviews.html#factfulness"
+    from = "personal-development-books-reviews.html#Factfulness-Ten-Reasons-We're-Wrong-About-the-World-and-Why-Things-Are-Better-Than-You-Think"
+    to = " https://ideascentral.co/personal-development-books-reviews.html#Factfulness-Ten-Reasons-We're-Wrong-About-the-World-and-Why-Things-Are-Better-Than-You-Think"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "personal-development-books-reviews.html#cant-hurt-me"
-    to = "https://ideascentral.co/personal-development-books-reviews.html#cant-hurt-me"
+    from = "personal-development-books-reviews.html#Can't-Hurt-Me-Master-Your-Mind-and-Defy-the-Odds"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#Can't-Hurt-Me-Master-Your-Mind-and-Defy-the-Odds"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
     conditions = {Language = ["en","es"], Country = ["US"]}
 
   [[redirects]]
-    from = "personal-development-books-reviews.html#seeking-wisdom"
-    to = "https://ideascentral.co/personal-development-books-reviews.html#seeking-wisdom"
+    from = "personal-development-books-reviews.html#Seeking-Wisdom-From-Darwin-To-Munger-3E"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#Seeking-Wisdom-From-Darwin-To-Munger-3E"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "personal-development-books-reviews.html#Eat-That-Frog-21-Great-Ways-to-Stop-Procrastinating-and-Get-More-Done-in-Less-Time"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#Eat-That-Frog-21-Great-Ways-to-Stop-Procrastinating-and-Get-More-Done-in-Less-Time"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+    
+  [[redirects]]
+    from = "personal-development-books-reviews.html#The-Courage-To-Be-Disliked-How-to-free-yourself-change-your-life-and-achieve-real-happiness"
+    to = "https://ideascentral.co/personal-development-books-reviews.html#The-Courage-To-Be-Disliked-How-to-free-yourself-change-your-life-and-achieve-real-happiness"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
+    
+  [[redirects]]
+    from = "personal-development-books-reviews.html#Think-Again-The-Power-of-Knowing-What-You-Don't-Know"
+    to = " https://ideascentral.co/personal-development-books-reviews.html#Think-Again-The-Power-of-Knowing-What-You-Don't-Know"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
@@ -84,22 +108,6 @@
   [[redirects]]
     from = "personal-development-books-reviews.html#eat-that-frog"
     to = "https://ideascentral.co/personal-development-books-reviews.html#eat-that-frog"
-    status = 301
-    force = false
-    query = {path = ":path"} #  apply this rule for /old-path?path=example
-    conditions = {Language = ["en","es"], Country = ["US"]}
-
-  [[redirects]]
-    from = "personal-development-books-reviews.html#the-courage-to-be-disliked"
-    to = "https://ideascentral.co/personal-development-books-reviews.html#the-courage-to-be-disliked"
-    status = 301
-    force = false
-    query = {path = ":path"} #  apply this rule for /old-path?path=example
-    conditions = {Language = ["en","es"], Country = ["US"]}
-
-  [[redirects]]
-    from = "personal-development-books-reviews.html#think-again"
-    to = " https://ideascentral.co/personal-development-books-reviews.html#think-again"
     status = 301
     force = false
     query = {path = ":path"} #  apply this rule for /old-path?path=example
