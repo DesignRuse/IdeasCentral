@@ -1,4 +1,0 @@
-﻿User-agent: *
-Disallow:
-
-Sitemap: https://ideascentral.co/sitemap.xml
