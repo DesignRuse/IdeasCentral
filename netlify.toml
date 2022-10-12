@@ -18,21 +18,6 @@
       no-store,
       must-revalidate'''
 
-      # If skip_processing = true, all other settings are ignored
-[build.processing]
-  skip_processing = true
-[build.processing.css]
-  bundle = true
-  minify = false
-[build.processing.js]
-  bundle = true
-  minify = false
-[build.processing.html]
-  pretty_urls = true
-[build.processing.images]
-  compress = true
-
-
    [[redirects]]
     from = "/"
     to = "https://ideascentral.co/"
