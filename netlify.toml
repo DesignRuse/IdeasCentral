@@ -26,7 +26,7 @@
     minify = false
 
    [build.processing.js]
-    bundle = false
+    bundle = true
     minify = false
 
    [build.processing.html]
@@ -36,10 +36,10 @@
     compress = false
 
    [context.deploy-preview.processing]
-    skip_processing = true
+    skip_processing = false
 
    [context.branch-name.processing]
-    skip_processing = true
+    skip_processing = false
 
    [context.branch-name.processing.images]
     compress = false
