@@ -18,6 +18,28 @@
       no-store,
       must-revalidate'''
 
+   [build.processing]
+    skip_processing = false
+    [build.processing.css]
+    bundle = false
+    minify = false
+    [build.processing.js]
+    bundle = true
+    minify = false
+    [build.processing.html]
+    pretty_urls = false
+    [build.processing.images]
+    compress = false
+
+   [context.deploy-preview.processing]
+    skip_processing = true
+
+   [context.branch-name.processing]
+    skip_processing = false
+
+   [context.branch-name.processing.images]
+    compress = false
+
    [[redirects]]
     from = "/"
     to = "https://ideascentral.co/"
