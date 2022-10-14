@@ -1,4 +1,4 @@
-﻿User-agent: *
-Disallow:
+﻿User-Agent: *
+Allow: / 
 
 Sitemap: https://ideascentral.co/sitemap.xml
