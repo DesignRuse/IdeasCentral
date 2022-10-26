@@ -50,7 +50,7 @@ window.addEventListener("DOMContentLoaded", function () {
 			var s = document.createElement("div");
 			s.className = "llyv-play-btn", e[t].appendChild(s);
 			var n = document.createElement("img");
-			n.src = "https://img.youtube.com/vi/" + e[t].dataset.id + "/hqdefault.jpg", n.alt = "YouTube Thumbnail", e[t].appendChild(n), e[t].addEventListener("click", function () {
+			n.src = "https://i.ytimg.com/vi_webp/" + e[t].dataset.id + "/hqdefault.webp", n.alt = "YouTube Thumbnail", e[t].appendChild(n), e[t].addEventListener("click", function () {
 				var e = document.createElement("iframe");
 				for (e.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?rel=0&showinfo=0&autoplay=1"), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", ""); this.firstChild;) this.removeChild(this.firstChild);
 				this.appendChild(e)
